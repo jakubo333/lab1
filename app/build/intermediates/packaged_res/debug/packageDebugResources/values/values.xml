@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="badge_red">#E53935</color>
+    <color name="black">#000000</color>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="secondary">#FF6F00</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">lab1</string>
+    <style name="Theme.Lab1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgTask"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Ikona zadania"
+        android:src="@android:drawable/ic_menu_agenda" />
+
+    <ImageView
+        android:id="@+id/imgState"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Stan zadania"
+        android:src="@android:drawable/presence_online" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toLeftOf="@id/imgState"
+        android:layout_toRightOf="@id/imgTask"
+        android:text="Przygotować projekt lab1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toLeftOf="@id/imgState"
+        android:layout_toRightOf="@id/imgTask"
+        android:text="Wykonać wszystkie zadania z layoutów i uruchomić je na emulatorze." />
+</RelativeLayout>
